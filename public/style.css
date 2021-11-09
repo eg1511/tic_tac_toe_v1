@@ -1,0 +1,38 @@
+.board {
+    margin: auto;
+    width: 490px;
+}
+
+.board button {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 5px;
+    font-size: 3em;
+    color: yellow;
+    background-color: darkviolet;
+}
+
+#message {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+#restartGame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-flow: column;
+    flex-direction: column;
+}

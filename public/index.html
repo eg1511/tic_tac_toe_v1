@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Tik-Tak-Toe</title>
+</head>
+<body>
+
+    <div id="message">Waiting for an opponent...</div>
+
+    <div class = "score">
+        Player Score: <span class="score" id="pScore"></span>
+        <br>
+
+        Opponent Score: <span class="score" id="oScore"></span>
+        <br>
+
+    </div>
+
+    <div id="restartGame"><button class="restartGame">Restart Game</button></div>
+
+
+
+    <div class="board">
+        <br>
+        <button id="r0c0"></button> <button id="r0c1"></button> <button id="r0c2"></button>
+        <button id="r1c0"></button> <button id="r1c1"></button> <button id="r1c2"></button>
+        <button id="r2c0"></button> <button id="r2c1"></button> <button id="r2c2"></button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
